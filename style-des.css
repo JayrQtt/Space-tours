@@ -1,0 +1,190 @@
+
+body{
+    margin: 0;
+    background-image: url(background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Bellefair', serif;
+}
+
+.main {
+    height: 100vh;
+}
+.header {
+    width: 1000px;  
+    height: 100px; 
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 10PX;
+    backdrop-filter: blur(100px);
+    background: rgba(38, 49, 71, 0.5);
+    margin-top: 40px;
+    position: relative;
+    left: 900px;
+    top: -50px; 
+    align-items: center;
+ }
+
+
+/* IMAGE WITH PARAGRAHP */
+
+ .main h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 12%;
+    /* opacity: 40%; */
+    
+ }
+
+ img{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+
+ }
+
+
+ /* IMAGE WITH PARAGRAHP */
+
+
+#span {
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+/* HEADERS NAV */
+
+.head{
+    padding-bottom: 2px;
+    
+}
+
+.line{
+    width: 700px;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: -770px;
+    overflow: visible;
+    font-weight: 1px;
+    opacity: 20%;
+}
+a{
+    text-decoration: none;
+    margin: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 40px 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+a:hover{
+    border-bottom: 2px solid white;
+}
+/* HEADERS NAV */
+
+/* NAVIGATOR SA MOON, MARS, TITAN, EUROPA. */
+
+.navigator{
+    position: absolute;
+    left: 60%;
+    top: 35%;
+    
+    
+}
+
+.navigator a{
+    padding: 10px 0;
+    font-size: 18   px;
+    margin: 15px;
+    opacity: 80%;
+    letter-spacing: 2px;
+}
+
+.navigator a:hover{
+    border-bottom: 3px solid white;
+
+}
+/* NAVIGATOR SA MOON, MARS, TITAN, EUROPA. */
+
+/* PARA SA PARAGRAHP  */
+
+h1 {
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 61%;
+}
+ 
+
+ p{
+    color: white;
+    width: 495px;
+    position: absolute;
+    top: 55%;
+    left: 61%;
+    font-size: 20px;
+    opacity: 80%;
+
+}
+
+.line2{
+    width: 500px; position: absolute;
+    top: 73%;
+    left: 61%;
+    opacity: 15%;
+}
+
+/* PARA SA PARAGRAHP  */
+
+ /* FOOTER NANI DIRI  */
+
+ .footer p{
+    font-size: 15px;
+    position: absolute;
+    top: 77%;
+    opacity: 80%;
+ }
+
+ .footer h3{
+    font-size: 30px;
+    position: absolute;
+    top: 79%;
+    color: white;
+    left: 61%;
+    opacity: 90%;
+ }
+
+ .footer .para2{
+    font-size: 15px;
+    position: absolute;
+    top: 77%;
+    color: white;
+    left: 73%;
+    text-transform: uppercase;
+    opacity: 80%;
+
+
+ }
+
+ .footer h2{
+    font-size: 30px;
+    position: absolute;
+    top: 79.5%;
+    color: white;
+    left: 73%;
+    opacity: 90%;
+
+ }
+ /* FOOTER NANI DIRI  */
+
+
